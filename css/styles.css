@@ -1,5 +1,4 @@
 
-
 .inline-block {
    
     vertical-align: top;
@@ -73,6 +72,7 @@ a {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 10px;
+   
 }
 
 header {
@@ -109,47 +109,97 @@ header {
 }
 
 
-.footer {
+.logofooter {
     display: flex;
-    flex-direction: column;
-    margin: 100px;
-    justify-content: flex-end;
+    width: 46%;
+    padding: 1%;  
+    
+}
+.footercontent {
+    
+    display: flex;
+    width: 48%;
+    padding: 1%;
+
+}
+.footer {
+    
+    display: inline-block;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+   
+   
     
     
      
 }
 .footercontent {
+    
+    display: inline-block;
     display: flex;
     font-family: poppins;
     text-transform: uppercase;
     color: white;
     font-size: 16px;
-    padding-right: 170px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 100px;
+    
+    
+   
+   
     
 }
 
-li {
-    display: inline;
+.footercontent li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+    text-wrap: nowrap;
+    
+   
+    
+    
+    
+}
+
+.topnav li {
+    display: inline-block;
+    display: flex;
     margin-top: 5px;
     margin-bottom: 5px;
     align-items: center;
-    padding: 10px; 
+    padding: 10px;
+   
+    
 
 }
 
 .footersection {
-    display: flex;
-    background-image: cover;
-    justify-content: flex-end;
-    min-height: 400px;
-    max-height: 500px;
-    background-position-y:center;
-    background-position-x:center;
+   
+    display: inline-block;
+    background-color: #DA8580;
+    
+    
+    
    
 }
 
+.logofooter {
+    display: inline-block;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    vertical-align: top;
+    justify-content: space-between;
+    padding-right: 100px;
+    margin-left: 90px;
+
+    
+    
+
+   
+    }
 
